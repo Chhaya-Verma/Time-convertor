@@ -1,0 +1,38 @@
+.img {
+    width: 100vw; 
+    height: 100vh; 
+    background-image: url('https://img.freepik.com/premium-photo/clock-background-template_85347-6847.jpg');
+    background-size: cover; 
+    background-position: center; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    color: rgb(77, 83, 88);
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.input, button {
+    padding: 10px;
+    margin: 10px;
+}
+
+.convertor {
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(77, 83, 88);
+    font-size: 1.5rem;
+}
+
+.container {
+    border: 3px solid rgb(77, 83, 88);
+}
